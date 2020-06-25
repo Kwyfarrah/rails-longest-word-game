@@ -1,0 +1,38 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.cards{
+ display: flex;
+}
+.card {
+  background-color: blue;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 1px 1px 2px grey;
+  font-weight: bolder;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px 200px;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
